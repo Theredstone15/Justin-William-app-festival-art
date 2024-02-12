@@ -1,18 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles-lp.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="robots" content="noindex" />
     <title>JMAF</title>
+    <link rel="icon" type="image/png" href="assets/Favicon.png">
+    <link href="scss/Couleurs.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="css/styles-lp.css" rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Hamburger button -->
+                <button class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <!-- Navigation -->
+                <div id="mainNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
 
+                        <a class="navbar-brand" href="index.html"><img class="logo" src="assets/Logo.png"
+                                alt="Retourner à la page d'accueil"></a>
 
+                        <li class="nav-item">
+                            <a href="app.html" class="nav-link btn btnnavbar">L'application</a>
+                        </li>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+                        <li class="nav-item">
+                            <a href="Fonctions.html" class="nav-link btn btnnavbar">Fonctionnalités</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="Tarifs.html" class="nav-link btn btnnavbar">Tarifs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="More.html" class="nav-link btn btnnavbar">En savoir plus</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="Billets.html" class="nav-link btn btnnavbar">Billets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid cell">
+            <div class="row justify-content-center presentation">
+                <div class="col-12 col-lg-6 me-lg-3 mt-lg-5 presentationtext h-25">
+                    <div class="textbox1">
+                        <div class="text1">SIMPLIFIEZ VOTRE VISITE AVEC NOTRE APPLICATION!</div>
+                        <div class="text2">JAPAN MEDIA ARTS FESTIVAL</div>
+                    </div>
+                    <div class="download justify-content-center"><a href="Download.html"
+                            class="downloadbutton">Télécharger</a></div>
+                </div>
+                <div class="col-12 col-lg-6 ms-lg-3 mt-4 mt-lg-0  presentationphone justify-content-center h-25">
+                    <img src="assets/Phone.png" class="mx-auto d-block phone">
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer class="fixed-bottom">
+        <div class="container-fluid piedpage">
+            <div class="row">
+                <div class="col-12 col-lg-4 items">Justin Guay et William Beauvais</div>
+                <div class="col-12 col-lg-4 items"><a class="lien"
+                        href="https://github.com/Theredstone15/Justin-William-app-festival-art/tree/main">https://github.com/Theredstone15/Justin-William-app-festival-art/tree/main</a>
+                </div>
+                <div class="col-12 col-lg-4 items">©2024</div>
+            </div>
+        </div>
+    </footer>
 </body>
-</html>
 
+</html>
