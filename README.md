@@ -1,1 +1,2 @@
-# Justin-William-app-festival-art
+# Japan Media Arts festival
+Par Justin Guay et William Beauvais
