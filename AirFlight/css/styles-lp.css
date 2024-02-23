@@ -15,7 +15,7 @@ body{
 }
 
 main{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .h1{
@@ -33,13 +33,11 @@ main{
 .h3{
     font-size: 30px;
     font-weight: 700;
-    color: var(--rose);
+    color: var(--black);
 }
 
-.h4{
-    font-size: 25px;
-    font-weight: 600;
-    color: var(--black);
+h4{
+    color: var(--white);
 }
 
 .h5{
@@ -209,3 +207,13 @@ main{
 }
 
 /*----- Section FAQ -----*/
+
+.faq{
+    background-color: #FFCFCF;
+}
+
+.info{
+    background-image: url("../assets/Background-Infolettre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

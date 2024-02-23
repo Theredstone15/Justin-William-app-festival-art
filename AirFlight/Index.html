@@ -199,7 +199,7 @@
             </div>
         </div>
         <!-- Section FAQ -->
-        <div class="container-fluid p-5">
+        <div class="container-fluid p-5 faq">
             <div class="row">
                 <div class="col">
                 <h2 class="title text-center">FAQ - Foire aux questions</h2>
@@ -273,6 +273,38 @@
                 </div>
             </div>
         </div>
+        <!-- Section Infolettre -->
+        <div class="container-fluid info p-5">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="title">Infolettre</h2>
+                    <h4>Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l'appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</h3>
+                    <button type="button" class="btn btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#modalinfolettre">Je m'abonne</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" tabindex="-1" id="modalinfolettre">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Restez informé!</h2>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la fenêtre"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <span class="prefix">Courriel</span>
+                            <input type="text" placeholder="votre courriel ici">
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-light">Soumettre</button>
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Annuler</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
     <footer class="fixed-bottom">
         <div class="container-fluid piedpage">
