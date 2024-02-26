@@ -16,93 +16,264 @@
 
 <body>
 
-<header>
-    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
-        <div class="container-fluid justify-content-space-between">
-            <!-- Hamburger button -->
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <!-- Navigation -->
-            <div id="mainNav" class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Programmation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Oeuvres</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Artistes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Amis</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid justify-content-space-between">
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation -->
+                <div id="mainNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Programmation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Oeuvres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Artistes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Amis</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-7">
+                        <a class="navbar-brand logo" href="index.html">
+                            <img src="/assets/Logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-1">
+                        <a class="navbar-brand user" href="#">
+                            <img src="/assets/user.png" alt="user">
+                        </a>
+                    </div>
+                </div>
             </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container pt-5">
+            <div class="row pt-4">
+                <div class="col-12">
+                    <div class="bd-search">
+                        <img src="/assets/search.svg" alt="" class="icon">
+                        <span class="docsearch-button-placeholder">Rechercher une oeuvre, un artiste...</span>
+                    </div>
+                    <div class="pt-3">
+                        <ul class="d-flex">
+                            <li>
+                                <button type="button" class="btn btn-outline-danger">Toutes</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-outline-danger">Animation</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-outline-danger">Japon</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-outline-danger">Divertissement</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>En vedette</h2>
+                <div class="row" id="vedette">
+                    <a class="card col-4 vedette-card" href="/app/artwork.html">
+                        <img src="/assets/artworks/ABiteOfBone.png" class="card-img-top img1">
+                        <div class="card-body">
+                            <h5 class="card-title">A Bite Of Bone</h5>
+                            Par YANO Honami
+                        </div>
+                        <div class="row ">
+                            <div class="col-6">
+                                <img class="icon" src="/assets/calendar-week.svg" alt="">
+                                26/05/24
+                            </div>
+                            <div class="col-6">
+                                <img class="icon" src="/assets/alarm.svg" alt="">
+                                18:00
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-6">
+                                <img class="icon" src="/assets/person.svg" alt="">
+                            </div>
+                            <div class="col-6">
+                                Plus d'info
+                                <img class="icon" src="/assets/caret-right-fill.svg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a class="card col-4 vedette-card" href="/app/artwork.html">
+                        <img src="/assets/artworks/DozensOfNorths.png" class="card-img-top img2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dozens Of Norths</h5>
+                            Par YAMAMURA Koji
+                        </div>
+                        <div class="row ">
+                            <div class="col-6">
+                                <img class="icon" src="/assets/calendar-week.svg" alt="">
+                                26/05/24
+                            </div>
+                            <div class="col-6">
+                                <img class="icon" src="/assets/alarm.svg" alt="">
+                                18:00
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-6">
+                                <img class="icon" src="/assets/person.svg" alt="">
+                            </div>
+                            <div class="col-6">
+                                Plus d'info
+                                <img class="icon" src="/assets/caret-right-fill.svg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a class="card col-4 vedette-card" href="/app/artwork.html">
+                        <img src="/assets/artworks/HaveANiceDog.png" class="card-img-top img3">
+                        <div class="card-body">
+                            <h5 class="card-title">Have A Nice Dog</h5>
+                            Par Jalal MAGHOUT
+                        </div>
+                        <div class="row ">
+                            <div class="col-6">
+                                <img class="icon" src="/assets/calendar-week.svg" alt="">
+                                26/05/24
+                            </div>
+                            <div class="col-6">
+                                <img class="icon" src="/assets/alarm.svg" alt="">
+                                18:00
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-6">
+                                <img class="icon" src="/assets/person.svg" alt="">
+                            </div>
+                            <div class="col-6">
+                                Plus d'info
+                                <img class="icon" src="/assets/caret-right-fill.svg" alt="">
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="row">
+                    <h2>
+                        Autres œuvres et performances
+                    </h2>
+                    <div class="col-12">
+                        <a class="card" href="/app/artwork.html">
+                            <img src="/assets/artworks/LetterToAPig.png" class="card-img-top img4">
+                            <div class="card-body">
+                                <h5 class="card-title">Letter To A Pig</h5>
+                                Par Tal KANTOR
+                            </div>
+                            <div class="row ">
+                                <div class="col-6">
+                                    <img class="icon" src="/assets/calendar-week.svg" alt="">
+                                    26/05/24
+                                </div>
+                                <div class="col-6">
+                                    <img class="icon" src="/assets/alarm.svg" alt="">
+                                    18:00
+                                </div>
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <img class="icon" src="/assets/person.svg" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        Plus d'info
+                                        <img class="icon" src="/assets/caret-right-fill.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card" href="/app/artwork.html">
+                            <img src="/assets/artworks/LifesABitch.png" class="card-img-top img5">
+                            <div class="card-body">
+                                <h5 class="card-title">Lifes A Bitch</h5>
+                                Par Varya YAKOVLEVA
+                            </div>
+                            <div class="row ">
+                                <div class="col-6">
+                                    <img class="icon" src="/assets/calendar-week.svg" alt="">
+                                    26/05/24
+                                </div>
+                                <div class="col-6">
+                                    <img class="icon" src="/assets/alarm.svg" alt="">
+                                    18:00
+                                </div>
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <img class="icon" src="/assets/person.svg" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        Plus d'info
+                                        <img class="icon" src="/assets/caret-right-fill.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card" href="/app/artwork.html">
+                            <img src="/assets/artworks/TheFourthWall.png" class="card-img-top img6">
+                            <div class="card-body">
+                                <h5 class="card-title">The Fourth Wall</h5>
+                                Par Mahboobeh KALAEE
+                            </div>
+                            <div class="row ">
+                                <div class="col-6">
+                                    <img class="icon" src="/assets/calendar-week.svg" alt="">
+                                    26/05/24
+                                </div>
+                                <div class="col-6">
+                                    <img class="icon" src="/assets/alarm.svg" alt="">
+                                    18:00
+                                </div>
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <img class="icon" src="/assets/person.svg" alt="">
+                                    </div>
+                                    <div class="col-6">
+                                        Plus d'info
+                                        <img class="icon" src="/assets/caret-right-fill.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid bg-dark p-4 mt-4">
             <div class="row">
-            <div class="col-1">
-        <a class="navbar-brand logo" href="index.html">
-            <img src="/AirFlight/assets/Logo.png" alt="logo">
-        </a>
-    </div>
-    <div class="col-1"> 
-        <a class="navbar-brand user" href="#">
-            <img src="/AirFlight/assets/user.png" alt="user">
-        </a>
-    </div>
-    </div>
+                <div class="col-12 col-sm-6">
+                    <p>
+                        Projet réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par William
+                        Beauvais.
+                    </p>
+                </div>
+                <div class="col-12 offset-sm-2 col-sm-4">
+                    <img src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg" alt="tim logo">
+                </div>
+            </div>
         </div>
-    </nav>
-</header>
-
-<main>
-<div class="container pt-5">
-    <div class="row pt-4">
-        <div class="col-12">
-        <div class="bd-search">
-            <i class="bi bi-search"></i>
-            <span class="docsearch-button-placeholder">Rechercher une oeuvre, un artiste...</span>
-        </div>
-        <div class="pt-3">
-            <ul class="d-flex">
-                <li>
-                    <button type="button" class="btn btn-outline-danger">Toutes</button>
-                </li>
-                <li>
-                    <button type="button" class="btn btn-outline-danger">Animation</button>
-                </li>
-                <li>
-                    <button type="button" class="btn btn-outline-danger">Japon</button>
-                </li>
-                <li>
-                    <button type="button" class="btn btn-outline-danger">Divertissement</button>
-                </li>
-            </ul>
-        </div>
-</div>
-    </div>
-</div>
-</main>
-
-<footer>
-    <div class="container-fluid bg-dark p-4 mt-4">
-        <div class="row">
-            <div class="col-12 col-sm-6">
-        <p>
-            Projet réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par William Beauvais.
-        </p>
-    </div>
-   <div class="col-12 offset-sm-2 col-sm-4">
-        <img src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg" alt="tim logo">
-     </div>
-    </div>
-</div>
-</footer>
+    </footer>
 
 </body>
 

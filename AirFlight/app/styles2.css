@@ -1,8 +1,12 @@
-img {
+.artwork {
+    height: 33vh;
+}
+
+.tim {
     width: 3rem;
 }
 
-p {
+.footer-p {
    color: #fff; 
 }
 
@@ -57,4 +61,8 @@ p {
 
 body {
     overflow-x: hidden;
+}
+
+.yano {
+    object-position: 0% 25%;
 }
