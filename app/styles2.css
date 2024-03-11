@@ -1,0 +1,68 @@
+.artwork {
+    height: 33vh;
+}
+
+.tim {
+    width: 3rem;
+}
+
+.footer-p {
+   color: #fff; 
+}
+
+.logo {
+    width: 5vw;
+}
+
+.card-img-top {
+    height: 20vh;
+    object-fit: cover;
+}
+
+.img1 {
+    object-position: 40% 0%;
+}
+
+.img2 {
+    object-position: 28% 0%;
+}
+
+.img3 {
+    object-position: 100% 0%;
+}
+
+.img4 {
+    object-position: 50% 0%;
+}
+
+.img5 {
+    object-position: 0% 0%;
+}
+
+.img6 {
+    object-position: 85% 0%;
+}
+
+.icon {
+    height: 2vh;
+}
+
+#vedette {
+    width: 140%;
+}
+
+.vedette-card {
+    max-width: 200px;
+}
+
+.vedette-card:hover {
+    background-color: #e6e6e6;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.yano {
+    object-position: 0% 25%;
+}
