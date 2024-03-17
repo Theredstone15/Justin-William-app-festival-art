@@ -207,6 +207,7 @@ h4{
     border-radius: 50px;    
 }
 
+
 /*----- Section testimonials -----*/
 
 .card-img-top{
@@ -256,12 +257,10 @@ h4{
 .swiper-slide{
     opacity: 50%;
     transition: opacity 1s;
-    transform: scale(0.8);
 }
 
 .swiper-slide-active{
     opacity: 100%;
     transition: opacity 1s;
-    transform: scale(1);
 }
 
