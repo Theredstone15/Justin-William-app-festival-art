@@ -52,6 +52,10 @@ h4{
     color: var(--gray);
 }
 
+.titre{
+    background-image: url("../assets/RectangleTitre.png");
+}
+
 /*----- Section Hero -----*/
 
 .logo{
@@ -212,11 +216,21 @@ h4{
 
 .card-img-top{
     height: 30vh;
+    object-fit: cover;
 }
 
 .temoins{
     background-color: #E6E6E6;
 }
+
+.card-body{
+    min-height: 150px;
+}
+
+.fonctions{
+    min-height: 260px;
+}
+
 
 /*----- Section FAQ -----*/
 
