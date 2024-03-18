@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="scrollspy1">
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark navbar-expand-lg">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <!-- Hamburger button -->
                 <button class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#mainNav"
@@ -31,23 +31,27 @@
                                 alt="Retourner à la page d'accueil"></a>
 
                         <li class="nav-item">
-                            <a href="app.html" class="nav-link btn btnnavbar">L'application</a>
+                            <a href="#scrollspy1" class="nav-link btn btnnavbar">L'application</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="Fonctions.html" class="nav-link btn btnnavbar">Fonctionnalités</a>
+                            <a href="#scrollspy2" class="nav-link btn btnnavbar">Fonctionnalités</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="Tarifs.html" class="nav-link btn btnnavbar">Tarifs</a>
+                            <a href="#scrollspy3" class="nav-link btn btnnavbar">En savoir plus</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="More.html" class="nav-link btn btnnavbar">En savoir plus</a>
+                            <a href="#scrollspy4" class="nav-link btn btnnavbar">Témoignages</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="Billets.html" class="nav-link btn btnnavbar">Billets</a>
+                            <a href="#scrollspy5" class="nav-link btn btnnavbar">FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#scrollspy6" class="nav-link btn btnnavbar">Infolettre</a>
                         </li>
                     </ul>
                 </div>
@@ -58,8 +62,8 @@
     <main>
         <!-- Section Hero -->
         <div class="container-fluid cell">
-            <div class="row justify-content-center presentation">
-                <div class="col-12 col-lg-6 me-lg-3 mt-lg-5 presentationtext h-25">
+            <div class="row justify-content-center presentation mt-5">
+                <div class="col-12 col-lg-6 me-lg-3 mt-lg-5 presentationtext h-25" >
                     <div class="textbox1">
                         <div class="text1">SIMPLIFIEZ VOTRE VISITE AVEC NOTRE APPLICATION!</div>
                         <div class="text2">JAPAN MEDIA ARTS FESTIVAL</div>
@@ -74,8 +78,8 @@
 
         </div>
         <!-- Section Features -->
-        <div class="container-fluid sectionfonctionnalites p-5">
-            <div class="row">
+        <div class="container-fluid sectionfonctionnalites p-5" id="scrollspy2">
+            <div class="row mt-5">
                 <div class="col text-center">
                     <h2 class="title">Fonctionnalités</h2>
                     <h4 class="title">Voici ce que notre application vous offre</h4>
@@ -140,9 +144,9 @@
         </div>
         <!-- Section Voir Plus -->
         <div class="container-fluid">
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col mt-4">
-                    <h2 class="title text-center">Prévisualisez l'interface de l'appli</h2>
+                    <h2 class="title text-center" id="scrollspy3">Prévisualisez l'interface de l'appli</h2>
                 </div>
             </div>
             <div class="row">
@@ -169,8 +173,8 @@
 
 
         <!-- Section testimonials -->
-        <div class="container-fluid temoins">
-            <div class="row">
+        <div class="container-fluid temoins" id="scrollspy4">
+            <div class="row mt-5">
                 <div class="col mt-4">
                     <h2 class="title text-center">Témoignages</h2>
                 </div>
@@ -236,8 +240,8 @@
             </div>
         </div>
         <!-- Section FAQ -->
-        <div class="container-fluid p-5 faq">
-            <div class="row">
+        <div class="container-fluid p-5 faq" id="scrollspy5">
+            <div class="row mt-5">
                 <div class="col">
                     <h2 class="title text-center">FAQ - Foire aux questions</h2>
                 </div>
@@ -320,7 +324,7 @@
             </div>
         </div>
         <!-- Section Infolettre -->
-        <div class="container-fluid info p-5">
+        <div class="container-fluid info p-5" id="scrollspy6">
             <div class="row">
                 <div class="col-0 col-lg-4">
 
