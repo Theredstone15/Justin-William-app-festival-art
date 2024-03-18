@@ -71,14 +71,14 @@ li {
     padding-left: 0px;
 }
 
-.userlogo {
-    margin: 0;
-}
-
 button {
     margin: 0;
 }
 
 p {
     font-size: 10px;
+}
+
+.logologo {
+    width: 70%;
 }
